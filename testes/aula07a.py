@@ -1,0 +1,11 @@
+n1 = int(input('Um valor: '))
+n2 = int(input('Outro valor: '))
+
+print('A some vale {}.'.format(n1 + n2))
+print('A subtração vale {}.'.format(n1 - n2))
+print('A multiplicação vale {}.'.format(n1 * n2))
+print('A divisão vale {}.'.format(n1 / n2))
+print('A divisão com precisão de três casa decimais vale {:.3}.'.format(n1 / n2))
+print('A divisão inteira vale {}.'.format(n1 // n2), end=' ')
+print('O resto da divisão inteira é {}.'.format(n1 % n2))
+print('O resultado da exponenciação é {}.'.format(n1 ** n2))

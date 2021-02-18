@@ -1,0 +1,7 @@
+print('='*10, 'Desafio 006', '='*10)
+print('Dobro, triplo e raiz quadrada\n')
+input_num = int(input('Informe um número: '))
+print('\nVocê informou: {}'.format(input_num))
+print('\nO dobro desse número é {}'.format(input_num * 2))
+print('O triplo desse número é {}'.format(input_num * 3))
+print('A raiz quadrada desse número é {}'.format(input_num ** 0.5))
