@@ -1,9 +1,9 @@
 print('='*10, 'Desafio 043', '='*10, '\nCalculo de IMC\n')
 
-peso = int(input('Informe seu peso: '))
-altura = int(input('Informe sua altura em metros: '))
+peso = float(input('Informe seu peso em quilogramas: '))
+altura = float(input('Informe sua altura em metros: '))
 
-imc = round(peso / altura^2, 2)
+imc = round(peso / altura**2, 2)
 
 print('')
 if imc <= 18.5:

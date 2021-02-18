@@ -17,4 +17,4 @@ elif "3" in base:
 else:
     print('Esta opção não existe\n')
 
-print(f'\nO número {num} na base escolhi é {num_cvt}\n')
+print(f'\nO número {num} na base escolhida é {num_cvt[2:]}\n')

@@ -17,15 +17,12 @@ jogadas = {
     3: "tesoura"
 }
 
-print('\nO computador esta "pensado"...')
+print('\nJO')
 sleep(1)
-print('.')
+print('KEN')
 sleep(1)
-print('.')
+print('PO')
 sleep(1)
-print('.')
-sleep(1)
-print(f'O computador "pensou" na jogada {jogadas[pc]}.')
 
 print('')
 if usr == pc:

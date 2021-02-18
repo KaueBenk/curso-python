@@ -1,7 +1,7 @@
 print('='*10, 'Desafio 040', '='*10, '\nMédia de Notas\n')
 
-nota1 = int(input('Informe a primeira nota: '))
-nota2 = int(input('Informe a segunda nota:'))
+nota1 = float(input('Informe a primeira nota: '))
+nota2 = float(input('Informe a segunda nota:'))
 
 media = round((nota1 + nota2) / 2, 2)
 
