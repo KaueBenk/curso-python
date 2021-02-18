@@ -1,4 +1,4 @@
-nome = str(input('Qual é o seu nome? '))
+nome = str(input('\nQual é o seu nome? ')).capitalize()
 
 if nome == 'Gustavo':
     print('Que nome bonito!')
